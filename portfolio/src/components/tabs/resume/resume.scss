@@ -1,0 +1,36 @@
+.resumeHolder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .resume{
+      max-width: 100%;
+  }
+
+   .resumeBtn{
+    border: 0;
+    border-radius: 7px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    color: #AAA9AD;
+    font-size: 21px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #222222;
+    box-shadow: 0 5px 20px rgba(250, 246, 246, 0.382);
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    text-decoration: none;  }
+
+  .resumeBtn:hover{
+      color: white;
+  }
+
+  @media (max-width: 501px){
+    .resume{
+      max-width: 60%;
+    }
+  }
+

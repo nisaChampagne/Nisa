@@ -1,0 +1,94 @@
+.aboutContainer{
+    max-width: 800px;
+    margin: auto;
+    margin-top: 60px;
+    background: white;
+    border-radius: 7px;
+    box-shadow: 2px 5px 5px 2px black;
+    padding-bottom: 7px;
+  }
+  
+  .aboutInfoh1{
+    color: black;
+    font-family: 'Share Tech Mono', monospace;
+
+  }
+  
+  .aboutInfoh2{
+    color: black;
+    font-family: 'Share Tech Mono', monospace;
+
+  }
+
+  ul.aboutUl{
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .li1{
+    display: inline-block;
+    border-radius: 7px;
+    padding: 10px 15px;
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    // text-shadow: 2px 2px black;
+  }
+  
+  .li2{
+    display: inline-block;
+    border-radius: 7px;
+    padding: 10px 15px;
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    // text-shadow: 2px 2px black;
+    text-decoration: none;
+  }
+
+  .aboutInfoP{
+    font-family: 'Share Tech Mono', monospace;
+  }
+
+  @media(max-width: 801px){
+    .aboutContainer{
+        max-width: 500px;
+        margin: auto;
+        margin-top: 50px;
+    
+      }
+  }
+
+  @media(max-width:501px){
+    .aboutInfoP{
+        font-size: 15px;
+      }
+      .aboutInfoh1{
+        border-bottom: 2px solid red;
+        font-size: 20px;
+      }
+    
+      .aboutInfoh2{
+        font-size: 17px;
+      }
+    
+      .aboutContainer{
+        background: white;
+        max-width: 350px;
+        border-radius: 7px;
+        padding-left: px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+      }
+      .li1, .li2{
+        padding: 7px 7px 7px 7px;
+        margin: 10px 0 5px 6px;
+        font-size: 15px;
+      }
+  }
