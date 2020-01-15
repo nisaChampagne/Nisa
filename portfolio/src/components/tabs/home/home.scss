@@ -1,0 +1,65 @@
+.descriptionOnHome1, .descriptionOnHome2{
+    font-size: 18px;
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+  }
+
+  .icon{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    box-shadow: red($color: #000000);
+  }
+  
+  .descriptionOnHome1, .descriptionOnHome2, .icon{
+    display: inline;
+  }
+
+
+  .descriptionOnHome1{
+    text-align: center;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .05em solid green; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 4.5s steps(40, end),
+      blink-caret .70s step-end infinite;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 35% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    30% { border-color: green; }
+  }
+
+
+.homeShort{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:501px){
+    .homeShort{}
+
+}
+
+.homeH1{
+    margin-bottom: 20px;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.homeInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

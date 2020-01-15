@@ -1,5 +1,7 @@
 import React from 'react'
 import './about.scss';
+import Snow from '../../svg/snowSVG'
+
 
 
 class Click extends React.Component {
@@ -25,6 +27,7 @@ class Click extends React.Component {
                   <li className="li2" onClick={this.handleClick.bind(this, 'My Stack')}>My Stack</li>
               </ul>
               {this._renderSubComp()}
+              <Snow />
           </div>
       );
   }

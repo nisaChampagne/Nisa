@@ -8,6 +8,7 @@ import Projects from './components/tabs/projects/projects'
 import Resume from './components/tabs/resume/resume'
 import Home from './components/tabs/home/home'
 import { Route, Switch } from 'react-router-dom'
+import Snow from './components/svg/snowSVG'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route exact path='/resume' component={Resume}/>
         <Route exact path='/magic8ball' component={MagicBall}/>
       </Switch>
+      <Snow />
     </div>
   );
 }
