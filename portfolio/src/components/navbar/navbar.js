@@ -13,6 +13,8 @@ const DesktopNav = () => (
         <li><NavLink to="/contact" exact className="subNav__link" >Contact</NavLink> </li>
         <li><NavLink to="/projects" exact className="subNav__link">Projects</NavLink></li>
         <li><NavLink to="/resume" exact className="subNav__link">Resume</NavLink></li>
+        <li><NavLink to="/magic8ball" exact className="subNav__link">Magic8Ball</NavLink></li>
+
     </div>
   </div>
 )
@@ -40,6 +42,7 @@ const MobileDropdown = ({ open, setOpen }) => {
         <li><NavLink to="/contact" exact className="subNav__link"  onClick={() => setOpen(false)}>Contact</NavLink> </li>
         <li><NavLink to="/projects" exact className="subNav__link" onClick={() => setOpen(false)}>Projects</NavLink></li>
         <li><NavLink to="/resume" exact className="subNav__link" onClick={() => setOpen(false)}>Resume</NavLink></li>
+        <li><NavLink to="/magic8ball" exact className="subNav__link"  onClick={() => setOpen(false)}>Magic8Ball</NavLink></li>
       </ul>
     </div>
   )
@@ -51,7 +54,7 @@ const NavBar = () => {
   return (
     <>
       <nav className="nav">
-        <Link to="/" onClick={() => setOpen(false)}><img src={Nisa} style ={{width: "50px"}} alt="Nisa" className="nav__logo" /></Link>
+        <Link to="/" onClick={() => setOpen(false)}><img src={Nisa} style ={{width: "40px", height:"40px"}} alt="Nisa" className="nav__logo" /></Link>
         <div className="nav__mobile-menu">
 
         </div>

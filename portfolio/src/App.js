@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './components/navbar/navbar'
 import './App.css';
-import MagicBall from './components/magic8ball/MagicBall';
+import MagicBall from './components/magic8ball/Home';
 import About from './components/tabs/about/about'
 import Contact from './components/tabs/contact/contact'
 import Projects from './components/tabs/projects/projects'

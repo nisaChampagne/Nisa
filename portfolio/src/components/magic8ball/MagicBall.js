@@ -9,7 +9,6 @@ class MagicBall extends Component {
   componentDidMount() {
     (async () => {
       try {
-        console.log(this.props.options, "Look!")
         const { data: options } = await axios.get(
           `https://server.nchampag23.now.sh/api/${this.props.lang}/answers`
         );

@@ -12,9 +12,18 @@ const Home = React.memo(() => {
         <br />
         <br />
         <br />
-        <div className="text">
-          <div className='homeShort'>
-            <p className='descriptionOnHome1'>Full stack web developer by day.<br /> Artist by night.</p> 
+        <div className="window">
+          <div className='terminal'>
+            <p className="command">git clone Nisas-Portfolio</p>
+            <p className='log'>
+              <span>
+              Full stack web developer by day.<br />
+              Artist by night.<br />
+              From Stryker, Ohio.<br />
+              Ready for my next adventure.<br />
+              Let's get started!
+              </span>
+              </p> 
           </div>
         </div>
       </div>

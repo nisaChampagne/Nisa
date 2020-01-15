@@ -5,6 +5,7 @@ import Todo from './reacttodonew.png'
 import posed from 'react-pose'
 
 import './projects.scss';
+import MagicBall from "../../magic8ball/Home";
 
 
 export default function Projects(){

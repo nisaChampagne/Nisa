@@ -42,7 +42,10 @@ class About1 extends React.Component{
           <h1 className='aboutInfoh1'>Hi, I'm Nisa.</h1>
           <div className="text">
             <div className="aboutText">
-              <p className='aboutInfoP'>Web developer/artist based in NorthWest Ohio.</p>
+              <p className='aboutInfoP'>Based out of northwest Ohio.Fueled by my passion for understanding the ins and out
+              of web development. I would consider myself a forever student, 
+              eager to both build on my academic foundations in web development and cyber security.
+              Check out my projects in the projects tab!</p>
             </div>
           </div>
         </div>
