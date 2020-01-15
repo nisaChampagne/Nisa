@@ -12,10 +12,8 @@
     color: black;
     font-family: 'Share Tech Mono', monospace;
     text-align: center;
-
-
   }
-  
+
   .aboutInfoh2{
     color: black;
     font-family: 'Share Tech Mono', monospace;
@@ -41,6 +39,14 @@
     cursor: pointer;
     text-decoration: none;
     // text-shadow: 2px 2px black;
+  }
+
+  .li1:active, .li2:active{
+    color: rgb(54, 219, 54);
+  }
+
+  .li1:hover, .li2:hover{
+    color: rgb(54, 219, 54);
   }
   
   .li2{
