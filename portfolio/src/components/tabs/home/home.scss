@@ -5,8 +5,10 @@
   overflow: hidden;
   position: relative;
   margin: 0 auto;
-  width: 70%;
+  width: 60%;
   
+
+
   &:before {
     content: ' ';
     display: block;
@@ -155,60 +157,6 @@
 }
 
 
-
-// .descriptionOnHome1, .descriptionOnHome2{
-//     font-size: 18px;
-//     color: white;
-//     font-family: 'Share Tech Mono', monospace;
-//   }
-
-//   .icon{
-//     width: 50px;
-//     height: 50px;
-//     margin: auto;
-//     box-shadow: red($color: #000000);
-//   }
-  
-//   .descriptionOnHome1, .descriptionOnHome2, .icon{
-//     display: inline;
-//     font-size: 15px;
-//   }
-
-
-//   .descriptionOnHome1{
-//     text-align: center;
-//     overflow: hidden; /* Ensures the content is not revealed until the animation */
-//     border-right: .05em solid rgb(54, 219, 54); /* The typwriter cursor */
-//     white-space: nowrap; /* Keeps the content on a single line */
-//     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-//     letter-spacing: .15em; /* Adjust as needed */
-//     animation: 
-//       typing 4.5s steps(40, end),
-//       blink-caret .70s step-end infinite;
-//   }
-//   @keyframes typing {
-//     from { width: 0 }
-//     to { width: 33% }
-//   }
-  
-//   @keyframes blink-caret {
-//     from, to { border-color: transparent }
-//     30% { border-color: rgb(54, 219, 54); }
-//   }
-
-
-// .homeShort{
-//     height: 100%;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-// }
-
-// @media(max-width:501px){
-//     .homeShort{}
-
-// }
-
 .homeH1{
     margin-bottom: 20px;
     color: rgb(54, 219, 54);
@@ -223,4 +171,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+
+@media(max-width:501px){
+  .window{
+    width: 90%
+  }
+  .terminal{
+    font-size: 15px;
+  }
 }

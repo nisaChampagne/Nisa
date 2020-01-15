@@ -2,7 +2,7 @@ import React from "react";
 
 import './home.scss'
 
-const Home = React.memo(() => {
+const Home = () => {
   return (
     <div className="homeContainer">
       <div className="homeInfo">
@@ -29,6 +29,6 @@ const Home = React.memo(() => {
       </div>
     </div>
   );
-});
+};
 
 export default Home;
