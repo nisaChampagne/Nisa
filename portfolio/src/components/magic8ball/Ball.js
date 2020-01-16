@@ -10,7 +10,7 @@ const Ball = ({ updateState, options, answer, lang }) => (
       onClick={Ball.handleRandomOption(updateState, options)}
       className="ball"
     >
-      <div className="surfice" />
+      <div className="surface" />
       <div className="ball__tag">
         {answer ? (
           <AnimateOnChange
@@ -25,9 +25,9 @@ const Ball = ({ updateState, options, answer, lang }) => (
         )}
       </div>
     </div>
-    <button onClick={Ball.onReset(updateState)} className="reset-btn">
+    <a href onClick={Ball.onReset(updateState)} className="reset-btn">
       {lang === "es" ? "Elegir Idioma" : "Choose Language"}
-    </button>
+    </a>
   </div>
 );
 

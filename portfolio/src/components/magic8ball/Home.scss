@@ -25,7 +25,6 @@
   }
   
   .select-language__btn {
-    background: linear-gradient(#000508, #423C3C, #989898,#423C3C,  );
     border: none;
     font-family: 'Share Tech Mono', monospace;
     box-shadow: 1px 1px 5px #b6b6b6;
@@ -33,11 +32,11 @@
     cursor: pointer;
     display: inline-block;
     font-size: 1.2rem;
-    height: 80px;
+    height: 50px;
     margin: 20px 5px 0;
     max-width: 220px;
     padding: 10px 25px 10px 25px;
-    text-shadow: 1px 1px 1px #f90;
+    text-shadow: 1px 1px 1px rgb(29, 29, 29);
     transition: 0.7s;
     width: 45%;
   }

@@ -26,22 +26,22 @@ class Home extends Component {
         <div className="select-language__wrapper">
           <h2 className="select-language__title h2">Select Your Language</h2>
           <h4 className="select-language__title h3">Elige tu Idioma</h4>
-          <button
+          <a href
             onClick={Home.selectEnglish(this.updateState)}
             type="button"
             aria-label="select english"
             className="select-language__btn"
           >
             English
-          </button>
-          <button
+          </a>
+          <a href
             onClick={Home.selectSpanish(this.updateState)}
             type="button"
             aria-label="seleccionar español"
             className="select-language__btn"
-          >
+            >
             Español
-          </button>
+          </a>
         </div>
       </div>
     );

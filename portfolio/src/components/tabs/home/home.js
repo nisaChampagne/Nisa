@@ -3,6 +3,11 @@ import React from "react";
 import './home.scss'
 
 const Home = () => {
+
+  setTimeout(function() {
+    window.location.href = "http://localhost:3000/about";
+  }, 8000);
+
   return (
     <div className="homeContainer">
       <div className="homeInfo">

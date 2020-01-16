@@ -5,8 +5,7 @@ import Todo from './reacttodonew.png'
 import posed from 'react-pose'
 
 import './projects.scss';
-import MagicBall from "../../magic8ball/Home";
-
+import Drum from '../drum/drum'
 
 export default function Projects(){
 
