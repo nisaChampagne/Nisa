@@ -5,7 +5,7 @@ import './home.scss'
 const Home = () => {
 
   setTimeout(function() {
-    window.location.href = "https://portfolio.nchampag23.now.sh/about";
+    window.location.href = "http://localhost:3000/about";
   }, 8000);
 
   return (

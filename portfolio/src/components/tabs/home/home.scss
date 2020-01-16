@@ -151,6 +151,7 @@
   to { width: 33% }
 }
 
+
 @keyframes blink-caret {
   from, to { border-color: transparent }
   30% { border-color: rgb(54, 219, 54); }
@@ -180,5 +181,9 @@
   }
   .terminal{
     font-size: 15px;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 80% }
   }
 }

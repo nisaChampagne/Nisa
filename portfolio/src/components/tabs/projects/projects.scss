@@ -1,3 +1,5 @@
+$cyber-font:'Share Tech Mono', monospace;
+
 .navLink_project{
   text-align: center;
   border-radius: 7px;
@@ -8,7 +10,7 @@
   font-weight: bold;
   cursor: pointer;
   box-shadow: 0 5px 20px rgba(122, 121, 121, 0.444);
-  font-family: 'Share Tech Mono', monospace;
+  font-family: $cyber-font;
   text-decoration: none;
 }
 
@@ -21,6 +23,7 @@
 }
 
 .projectH3{
+  font-family: $cyber-font;
   margin-top: 10px;
   color: #AAA9AD;
   font-size: 25px;
@@ -44,7 +47,7 @@
   cursor: pointer;
   margin-right: 10px;
   box-shadow: 0 5px 20px rgba(122, 121, 121, 0.444);
-  font-family: 'Share Tech Mono', monospace;
+  font-family: $cyber-font;
   text-decoration: none;
 }
 .projectBtn:hover{
