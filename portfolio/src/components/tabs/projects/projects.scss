@@ -1,10 +1,24 @@
-// img.pokedex{
-//   margin: 0 auto;
-//   max-width: 100%;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-// }
+.navLink_project{
+  text-align: center;
+  border-radius: 7px;
+  text-shadow: 2px 2px black;
+  padding: 5px 25px;
+  color: #AAA9AD;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 5px 20px rgba(122, 121, 121, 0.444);
+  font-family: 'Share Tech Mono', monospace;
+  text-decoration: none;
+}
+
+@media(max-width:501px){
+  .projects, .projectList{
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+}
 
 .projectH3{
   margin-top: 10px;
@@ -37,22 +51,6 @@
   color: white;
 }
 
-// .videoproject{
-//   width: 450px;
-//   height: 450px;
-//   border-radius: 20px;
-//   margin: 0 auto;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-// }
-
-// @media (max-width: 501px){
-// img.pokedex{
-//   max-width: 100%;
-// }
-// }
-
 img.pokedex{
   margin: auto;
   max-width: 500px;
@@ -77,6 +75,7 @@ img.pokedex{
   justify-content: space-around;
   align-items: center;
 }
+
 
 @media(max-width:501px){
 
