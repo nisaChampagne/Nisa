@@ -9,6 +9,7 @@ import Home from './components/tabs/home/home'
 import { Route, Switch } from 'react-router-dom'
 import Snow from './components/svg/snowSVG'
 import Drums from './components/tabs/drum/drum';
+import Resume from './components/tabs/resume/resume'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route exact path='/about' component={About}/>
         <Route exact path='/magic8ball' component={MagicBall}/>
         <Route exact path='/drum' component={Drums}/>
+        <Route exact path='/resume' component={Resume}/>
       </Switch>
       <Snow />
     </div>

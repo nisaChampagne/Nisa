@@ -13,7 +13,7 @@ const DesktopNav = () => (
         <li><NavLink to="/contact" exact className="subNav__link" >Contact</NavLink> </li>
         <li><NavLink to="/projects" exact className="subNav__link">Projects</NavLink></li>
         <li><NavLink to="/magic8ball" exact className="subNav__link">Magic8Ball</NavLink></li>
-
+        <li><NavLink to="/resume" exact className="subNav__link">Resume</NavLink></li>
     </div>
   </div>
 )
@@ -26,7 +26,8 @@ const DesktopDropdown = ({ open, setOpen }) => {
         <li><NavLink to="/about" exact className="subNav__link"  onClick={() => setOpen(false)}>About</NavLink> </li>
         <li><NavLink to="/contact" exact className="subNav__link"  onClick={() => setOpen(false)}>Contact</NavLink> </li>
         <li><NavLink to="/projects" exact className="subNav__link" onClick={() => setOpen(false)}>Projects</NavLink></li>
-        <li><NavLink to="/resume" exact className="subNav__link" onClick={() => setOpen(false)}>Resume</NavLink></li>
+        <li><NavLink to="/magic8ball" exact className="subNav__link" onClick={() => setOpen(false)}>Magic 8 Ball</NavLink></li>
+        <li><NavLink to="/resume" exact className="subNav__link">Resume</NavLink></li>
       </ul>
     </div>
   )
@@ -41,6 +42,7 @@ const MobileDropdown = ({ open, setOpen }) => {
         <li><NavLink to="/contact" exact className="subNav__link"  onClick={() => setOpen(false)}>Contact</NavLink> </li>
         <li><NavLink to="/projects" exact className="subNav__link" onClick={() => setOpen(false)}>Projects</NavLink></li>
         <li><NavLink to="/magic8ball" exact className="subNav__link"  onClick={() => setOpen(false)}>Magic8Ball</NavLink></li>
+        <li><NavLink to="/resume" exact className="subNav__link">Resume</NavLink></li>
       </ul>
     </div>
   )
