@@ -22,7 +22,7 @@ function App() {
         <Route exact path='/about' component={About}/>
         <Route exact path='/magic8ball' component={MagicBall}/>
         <Route exact path='/drum' component={Drums}/>
-        <Route exact path='/resume' component={Resume}/>
+        {/* <Route exact path='/resume' component={Resume}/> */}
       </Switch>
       <Snow />
     </div>
